@@ -1,11 +1,16 @@
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #3b2462;
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
     margin-top: 100px;
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 500;
 }
 
 h1,
@@ -31,6 +36,15 @@ p {
     margin: 10px;
     font-size: 18px;
     line-height: 1.5;
+}
+
+footer {
+    margin: 20px;
+    border-top: 1px solid #f9f7fe;
+    padding: 30px 0;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(39, 33, 66, 0.6);
 }
 
 .navigation-links {
@@ -87,4 +101,36 @@ p {
 
 .email-link:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 576px) {
+
+    h1,
+    h2,
+    h3,
+    p,
+    footer,
+    .primary-link,
+    .secondary-link {
+        font-weight: 200;
+    }
+
+    h1 {
+        font-size: 48px;
+
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p, footer, .primary-link,
+    .secondary-link {
+        font-size: 12px;
+    }
+
 }
