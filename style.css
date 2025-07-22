@@ -115,12 +115,6 @@ footer {
         font-weight: 200;
     }
 
-    h2,
-    p,
-    .primary-link {
-        text-align: center;
-    }
-
     h1 {
         font-size: 48px;
 
@@ -128,14 +122,17 @@ footer {
 
     h2 {
         font-size: 32px;
+        text-align: center;
     }
 
     p {
         font-size: 14px;
+        text-align: center;
     }
 
     .project-link {
         display: block;
+        text-align: center;
         margin: 0 20px;
         font-size: 14px;
     }
